@@ -91,7 +91,7 @@
 #if defined HT_TWO_THUMB_KEYS && !defined VIM_NAVIGATION
   #define SYM_NUM_LAYER &sc NAV_NUM_LAYER CAPSLOCK
 #else
-  #define SYM_NUM_LAYER &lt NUM_LAYER RGUI
+  #define SYM_NUM_LAYER &sc NUM_LAYER RGUI
 #endif
 
 #ifdef LHAND_SPACE
